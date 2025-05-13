@@ -1,0 +1,35 @@
+.profile{
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+   width: 30%;
+   margin: 185px auto;
+   transition: 0.5s;
+
+   &:hover {
+       box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+       transform: translateY(-10px);
+   }
+
+   @media (max-width: 768px) {
+       padding: 10px;
+       width: 80%;
+       margin: 90px auto;
+    }
+
+    .profile-info{
+        text-align: left;
+        margin-top: 15px;
+
+        p{
+            margin-bottom: 20px;
+            color: #333;
+
+            strong{
+                font-weight: bold;
+                color: #8a4baf;
+            }
+        } 
+    }
+}

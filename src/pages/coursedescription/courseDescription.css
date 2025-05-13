@@ -1,0 +1,94 @@
+.course-description {
+    /* height: 55vh;
+    padding: 100px 50px;
+    text-align: center;
+    
+     
+    .course-header{
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px; */
+    background-image: linear-gradient(to top, #dabbf2 0%, #fff 100%);
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        gap: 30px;
+
+    .course-header{
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+        
+         &:hover {
+            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+            transform: translateY(-10px);
+        }
+
+        @media(max-width: 768px){
+                max-width: 300px;
+            }
+        
+
+        .course-image{
+            width: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        @media(max-width: 460px){
+            .course-image{
+               
+                width: 80%;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            }
+
+        .course-info{
+            text-align: center;
+
+            h2{
+                font-size: 24px;
+                color: #333;
+                font-weight: bold;
+                
+            }
+
+            p {
+                font-size: 14px;
+                color: #666;
+                margin : 7px 0;
+                padding: 2px;
+            }
+
+        }
+
+        p{
+            font-size: 16px;
+            color: #333;
+            text-align: center;
+            max-width: 800px;
+            margin: 5px auto;
+            padding: 3px;
+            font-weight: 600;
+
+        }
+    }
+    /* .newcoursestyling{
+        
+        border: 1px solid gray;
+        
+    } */
+}
+
